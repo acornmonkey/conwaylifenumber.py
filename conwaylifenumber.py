@@ -4,7 +4,7 @@ arr = []
 for i in range(512):
     if i.bit_count() == 3 or (i.bit_count() == 4 and (i >> 4) & 1 == 1):
 
-#Simpler example:
+#Simpler example (Rule 94):
 #for i in range(8):
 #    if i.bit_count() == 1 or (i.bit_count() == 2 and (i >> 1) & 1 == 1):
 
